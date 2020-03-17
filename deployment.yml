@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: k8s-express-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: k8s-express

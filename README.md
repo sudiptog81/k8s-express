@@ -1,12 +1,8 @@
 # Express on Kubernetes
 
-Simple Express application returning a JSON representation of Network Interfaces currently running on a simple Kubernetes deployment on a Shared Cluster.
-
+Simple Express application returning a JSON representation of Network Interfaces capable of running on a Kubernetes deployment. Services pre-configured for Google Kubernetes Engine.
 
 [View Image @ DockerHub: sudiptog81/k8s-express](https://hub.docker.com/r/sudiptog81/k8s-express)
-
-
-[View Deployment @ KubeSail.io](https://sudiptog81.usw1.kubesail.io/)
 
 ## Author
 
