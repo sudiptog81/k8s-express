@@ -5,7 +5,6 @@ const app = express();
 app.set('json spaces', 2)
 
 app.get('/', (req, res) => {
-    let obj = { ip: {} };
     const ifaces = os.networkInterfaces();
     res.status(200).json({ data: ifaces });
 });
