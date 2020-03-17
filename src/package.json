@@ -1,0 +1,14 @@
+{
+  "name": "k8s-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "sudipto@ghosh.pro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: k8s-express-3000
+spec:
+  ports:
+    - name: k8s-express-3000
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+  selector:
+    app: k8s-express
