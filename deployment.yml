@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: k8s-express-deployment
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: k8s-express
@@ -14,6 +14,6 @@ spec:
     spec:                  
       containers: 
       - name: k8s-express 
-        image: sudiptog81/k8s-express:1.0.0 
+        image: sudiptog81/k8s-express:1.0.3
         ports:
         - containerPort: 3000
